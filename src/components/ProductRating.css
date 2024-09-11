@@ -1,0 +1,13 @@
+.stars {
+  display: flex;
+  position: relative;
+  right: 66px;
+}
+.yellow {
+  height: 15px;
+  width: 15px;
+}
+.white {
+  height: 15px;
+  width: 15px;
+}
