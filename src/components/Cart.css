@@ -1,0 +1,18 @@
+.cart img {
+  width: 25px;
+  height: 25px;
+}
+.cart {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-style: none;
+  padding: 0;
+  cursor: pointer;
+}
+.cart:hover {
+  background-color: rgb(221, 221, 221);
+}
