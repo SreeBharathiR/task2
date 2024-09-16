@@ -1,8 +1,8 @@
 import React from "react";
 import "./Cart.css";
-function Cart({ add }) {
+function Cart({ addCart }) {
   return (
-    <button className="cart" onClick={add}>
+    <button className="cart" onClick={addCart}>
       <img src="cartN.png" alt="cart"></img>
     </button>
   );
