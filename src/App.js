@@ -1,10 +1,6 @@
 import "./App.css";
-
 import React from "react";
-import { productlist } from "./data";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import CartPage from "./components/CartPage";
 import ProductListPage from "./components/ProductListPage";
 import ProductCartPage from "./components/ProductCartPage";
 import { CartProvider } from "./context/CartContext";

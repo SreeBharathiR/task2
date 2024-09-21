@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import ProductImage from "./ProductImage";
 import DeleteButton from "./DeleteButton";
-import ProductSP from "./ProductSP";
 import Quantity from "./Quantity";
 import Total from "./Total";
 import "./CartProduct.css";

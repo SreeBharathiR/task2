@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from "react";
+import React from "react";
 import ProductImage from "./ProductImage";
 import ProductSP from "./ProductSP";
 import ProductCost from "./ProductCost";

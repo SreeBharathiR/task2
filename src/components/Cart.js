@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Cart.css";
 function Cart({ addCart, addCount }) {
   return (
