@@ -1,12 +1,12 @@
 import React from "react";
 import "./Quantity.css";
 
-const Quantity = ({ count, add, sub }) => {
+const Quantity = ({ count, id, addCount, subCount }) => {
   return (
     <div className="quantityContainer">
-      <button onClick={add}>+</button>
+      <button onClick={() => addCount(id)}>+</button>
       <div className="inputdiv">{count}</div>
-      <button onClick={sub} disabled={count < 2 ? true : false}>
+      <button onClick={() => subCount(id)} disabled={count < 2 ? true : false}>
         -
       </button>
     </div>

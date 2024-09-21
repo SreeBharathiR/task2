@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Cart.css";
-function Cart({ addCart }) {
+function Cart({ addCart, addCount }) {
   return (
     <button className="cart" onClick={addCart}>
       <img src="cartN.png" alt="cart"></img>

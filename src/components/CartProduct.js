@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ProductImage from "./ProductImage";
 import DeleteButton from "./DeleteButton";
 import ProductSP from "./ProductSP";
@@ -9,13 +9,27 @@ import "./CartProduct.css";
 const CartProduct = ({
   image,
   sellingPrice,
-  quantity,
   name,
-  addC,
-  subC,
   remove,
   id,
+  addCount,
+  subCount,
+  count,
 }) => {
+  console.log("welcome");
+  // const [productCounts, setProductCounts] = useState(1);
+  // const addProductCount = () => {
+  //   setProductCounts(productCounts + 1);
+  //   console.log(productCounts);
+  // };
+  // const subProductCount = () => {
+  //   setProductCounts(productCounts - 1);
+  //   console.log(productCounts);
+  // };
+  // console.log(dataCount);
+  // let count = dataCount.find((item) => item.id === id);
+  // console.log("count" + count);
+  console.log("name" + name);
   return (
     <div>
       <div className="cartProductContainer">
@@ -23,11 +37,16 @@ const CartProduct = ({
           <ProductImage image={image}></ProductImage>
           <p>{name}</p>
         </div>
-        {console.log(`${id} and ${name}`)}
+        {/* {console.log(`${id} and ${name}`)} */}
         <div className="remainingdata">
           <p>₹{sellingPrice}</p>
-          <Quantity count={quantity} add={addC} sub={subC}></Quantity>
-          <Total></Total>
+          <Quantity
+            id={id}
+            addCount={addCount}
+            subCount={subCount}
+            count={count}
+          ></Quantity>
+          <Total count={count} price={sellingPrice}></Total>
           <DeleteButton rev={remove} iddelete={id}></DeleteButton>
         </div>
       </div>

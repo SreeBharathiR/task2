@@ -54,7 +54,7 @@ export const productlist = [
     image:
       "https://a.media-amazon.com/images/I/41z5f22MLmL._SX300_SY300_QL70_FMwebp_.jpg",
     name: "JBL Tune 770NC Wireless Over Ear ANC Headphones with Mic, Upto 70 Hrs Playtime, Speedcharge, Google Fast Pair, Dual Pairing, BT 5.3 LE Audio, Customize on Headphones App (Black)",
-    sellingPrice: "5,998",
+    sellingPrice: "5998",
     cost: "₹9999",
     rating: 4,
   },
@@ -62,8 +62,8 @@ export const productlist = [
     id: 7,
     image: "https://a.media-amazon.com/images/I/51raakZN9fL._SL1500_.jpg",
     name: "OnePlus Nord Buds 2r True Wireless in Ear Earbuds with Mic, 12.4mm Drivers, Playback:Upto 38hr case,4-Mic Design, IP55 Rating [ Misty Grey ]",
-    sellingPrice: "1,999",
-    cost: "₹2,299",
+    sellingPrice: "1999",
+    cost: "₹2299",
     rating: 4.2,
   },
 ];

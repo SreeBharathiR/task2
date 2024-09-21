@@ -1,0 +1,24 @@
+.linkA {
+  text-decoration: none;
+}
+.logoName {
+  margin-left: 30px;
+  height: 60px;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  width: 51px;
+  background-image: url("https://www.shutterstock.com/shutterstock/photos/2239614743/display_1500/stock-vector-letter-r-logo-design-logo-template-creative-r-logo-vector-symbol-2239614743.jpg");
+  border-radius: 50%;
+  background-size: cover;
+}
+.logoName p {
+  font-size: 28px;
+  font-family: cursive;
+  font-variant: small-caps;
+  color: rgb(153, 0, 255);
+}

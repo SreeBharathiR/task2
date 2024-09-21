@@ -1,7 +1,8 @@
 import React from "react";
 
-const Total = () => {
-  return <div>Total</div>;
+const Total = ({ count, price }) => {
+  // console.log(`count:${count} and price:${price}`);
+  return <p>₹{count * price}</p>;
 };
 
 export default Total;
