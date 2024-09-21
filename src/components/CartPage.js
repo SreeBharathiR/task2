@@ -1,4 +1,4 @@
-import React, { useReducer, useState, useEffect, forwardRef } from "react";
+import React, { useState, useEffect, forwardRef } from "react";
 import "./CartPage.css";
 import ModalClear from "./ModalClear";
 import CartProduct from "./CartProduct";
