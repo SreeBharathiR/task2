@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./SignUp.css";
 import { Link } from "react-router-dom";
 const SignUp = () => {
-  const [createPass, setCreatePass] = useState("");
-  const [confirm, setConfirm] = useState("");
-  function confirmPassword() {}
+  // const [createPass, setCreatePass] = useState("");
+  // const [confirm, setConfirm] = useState("");
+  // function confirmPassword() {}
   return (
     <div className="signupContainer">
       <div className="signup">
