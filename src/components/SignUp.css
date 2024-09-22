@@ -1,0 +1,47 @@
+.signupContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff6f00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup {
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid;
+  background-color: white;
+  border-radius: 20px;
+}
+#signP {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #cd5c08;
+}
+.signup input {
+  height: 30px;
+  width: 240px;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+}
+#signupBtn {
+  width: 90px;
+  height: 35px;
+  background-color: #cd5c08;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+#backlogin {
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#backlogin a {
+  text-decoration: none;
+}
